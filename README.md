@@ -38,3 +38,8 @@
 | 394 | Decode String | stack | ✅ 通过 | 2026-03-29 |
 | 994 | Rotting Oranges | graph | ✅ 通过 | 2026-03-29 |
 | 105 | Construct Binary Tree from Preorder and Inorder Traversal | tree | 🔄 需复习 | 2026-03-30 |
+| 199 | Binary Tree Right Side View | tree | ✅ 通过 | 2026-03-30 |
+| 437 | Path Sum III | tree | ✅ 通过 | 2026-03-30 |
+| 543 | Diameter of Binary Tree | tree | ✅ 通过 | 2026-03-31 |
+| 143 | Reorder List | linked_list | ✅ 通过 | 2026-03-31 |
+| 39 | Combination Sum | backtracking | ✅ 通过 | 2026-03-31 |

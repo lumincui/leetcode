@@ -37,9 +37,23 @@ class TreeNode:
 
 
 def rightSideView(root: Optional[TreeNode]) -> List[int]:
-    # TODO: 在这里写你的解法
-    pass
+    queue = []
+    result = []
 
+    if root:
+        queue.append(root)
+
+    while queue:
+        node = None
+        for i in range(len(queue)):
+            node = queue.pop(0)
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+        result.append(node.val)
+
+    return result
 
 # ---- 辅助函数：从列表构建树（LeetCode 层序格式）----
 def build_tree(vals):

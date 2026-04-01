@@ -43,3 +43,6 @@
 | 543 | Diameter of Binary Tree | tree | ✅ 通过 | 2026-03-31 |
 | 143 | Reorder List | linked_list | ✅ 通过 | 2026-03-31 |
 | 39 | Combination Sum | backtracking | ✅ 通过 | 2026-03-31 |
+| 78 | Subsets | backtracking | ✅ 通过 | 2026-04-01 |
+| 22 | Generate Parentheses | backtracking | ✅ 通过 | 2026-04-01 |
+| 198 | House Robber | dp | ✅ 通过 | 2026-04-01 |

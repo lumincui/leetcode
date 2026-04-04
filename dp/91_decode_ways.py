@@ -29,17 +29,18 @@ from typing import List
 
 
 def num_decodings(s: str) -> int:
+    if not s:
+        return 0
+
     dp = [0] * len(s)
-    dp[0] = 1
-    dp[1] = 1 if s[0] != '0' else 0
-    for i in range(2, len(s)+1):
-        if s[i-1] != '0':
-            dp[i] += dp[i - 1]
-        if 10 <= int(s[i-2:i]) <= 26:
-            dp[i] += dp[i-2] if i-2>=0 else 0
 
-    return dp[len(s)-1]
+    for i in range(len(s)):
+        if s[i] != '0':
+            dp[i] += dp[i-1] if i-1>= 0 else 1
+        if i-1>=0 and 10<= int(s[i-1:i+1]) <= 26:
+            dp[i] += dp[i-2] if i-2>= 0 else 1
 
+    return dp[-1]
 
 def run_tests():
     test_cases = [
@@ -48,7 +49,7 @@ def run_tests():
         ("06", 0),
         ("10", 1),
         ("101", 1),
-        ("11111111111111111111", 676),
+        ("11111111111111111111", 10946),
         ("27", 1),
         ("110", 1),
         ("1001", 0),

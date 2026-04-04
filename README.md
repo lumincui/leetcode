@@ -34,7 +34,7 @@
 | 1312 | Minimum Insertion Steps to Make a String Palindrome | interval_dp | 🔄 需复习 | 2026-03-26 |
 | 84 | Largest Rectangle in Histogram | monotonic_stack | ✅ 通过 | 2026-03-26 |
 | 380 | Insert Delete GetRandom O(1) | design | ✅ 通过 | 2026-03-26 |
-| 28 | Find the Index of the First Occurrence | kmp | 🔄 需复习 | 2026-03-26 |
+| 28 | Find the Index of the First Occurrence | kmp | ✅ 通过 | 2026-04-04 |
 | 394 | Decode String | stack | ✅ 通过 | 2026-03-29 |
 | 994 | Rotting Oranges | graph | ✅ 通过 | 2026-03-29 |
 | 105 | Construct Binary Tree from Preorder and Inorder Traversal | tree | 🔄 需复习 | 2026-03-30 |
@@ -46,4 +46,9 @@
 | 78 | Subsets | backtracking | ✅ 通过 | 2026-04-01 |
 | 22 | Generate Parentheses | backtracking | ✅ 通过 | 2026-04-01 |
 | 198 | House Robber | dp | ✅ 通过 | 2026-04-01 |
-| 91 | Decode Ways | dp | 🔄 需复习 | 2026-04-04 |
+| 91 | Decode Ways | dp | ✅ 通过 | 2026-04-04 |
+
+---
+
+## 明日计划
+- 做一道新的 KMP 题（28 已复习完，需找新题）

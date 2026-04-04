@@ -37,7 +37,7 @@
 | 28 | Find the Index of the First Occurrence | kmp | ✅ 通过 | 2026-04-04 |
 | 394 | Decode String | stack | ✅ 通过 | 2026-03-29 |
 | 994 | Rotting Oranges | graph | ✅ 通过 | 2026-03-29 |
-| 105 | Construct Binary Tree from Preorder and Inorder Traversal | tree | 🔄 需复习 | 2026-03-30 |
+| 105 | Construct Binary Tree from Preorder and Inorder Traversal | tree | 🔄 需复习 | 2026-04-04 |
 | 199 | Binary Tree Right Side View | tree | ✅ 通过 | 2026-03-30 |
 | 437 | Path Sum III | tree | ✅ 通过 | 2026-03-30 |
 | 543 | Diameter of Binary Tree | tree | ✅ 通过 | 2026-03-31 |

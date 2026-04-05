@@ -54,4 +54,6 @@
 ---
 
 ## 明日计划
-- 做一道新的 KMP 题（28 已复习完，需找新题）
+- 复习双指针 (two_pointers)
+- 复习单调栈 (monotonic_stack)
+- 复习 KMP (string)

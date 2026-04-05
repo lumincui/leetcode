@@ -4,59 +4,79 @@
 链接: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 题目描述:
-给定一个字符串 s ，请你找出其中不含有重复字符的最长子串的长度。
+    给定一个字符串 s ，请你找出其中不含有重复字符的最长子串的长度。
 
-示例 1:
-输入: s = "abcabcbb"
-输出: 3 
-解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+示例:
+    输入: s = "abcabcbb"
+    输出: 3
+    解释: 无重复字符的最长子串是 "abc"，长度为 3。
 
-示例 2:
-输入: s = "bbbbb"
-输出: 1
-解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+    输入: s = "bbbbb"
+    输出: 1
+    解释: 无重复字符的最长子串是 "b"，长度为 1。
 
-示例 3:
-输入: s = "pwwkew"
-输出: 3
-解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
-     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+    输入: s = "pwwkew"
+    输出: 3
+    解释: 无重复字符的最长子串是 "wke"，长度为 3。
 
 约束:
-- 0 <= s.length <= 5 * 10^4
-- s 由英文字母、数字、符号和空格组成
-
-思路提示:
-- 考虑使用双指针（滑动窗口）来维护一个不包含重复字符的区间。
-- 可以使用哈希表或集合来快速判断字符是否重复。
+    0 <= s.length <= 5 * 10^4
+    s 由英文字母、数字、符号和空格组成
 """
 
-def lengthOfLongestSubstring(s: str) -> int:
-    # TODO: 在这里写你的解法
-    pass
+from typing import List
+
+
+def length_of_longest_substring(s: str) -> int:
+    if not s:
+        return 0
+
+    window = set()
+    longest = 0
+
+    left, right = 0, 0
+    while left <= right and right < len(s):
+        if s[right] not in window:
+            window.add(s[right])
+            longest = max(longest, len(window))
+            right = right + 1
+        else:
+            window.remove(s[left])
+            left = left + 1
+
+    return longest
 
 
 def run_tests():
     test_cases = [
-        ("abcabcbb", 3),
-        ("bbbbb", 1),
-        ("pwwkew", 3),
-        ("", 0),
-        (" ", 1),
-        ("au", 2),
-        ("dvdf", 3),
+        ("abcabcbb", 3, "官方示例1 - abcabcbb"),
+        ("bbbbb", 1, "官方示例2 - bbbbb"),
+        ("pwwkew", 3, "官方示例3 - pwwkew"),
+        
+        ("", 0, "空字符串"),
+        ("a", 1, "单字符"),
+        ("ab", 2, "两字符无重复"),
+        ("aa", 1, "两字符相同"),
+        ("abcdef", 6, "全不重复"),
+        ("abbcd", 3, "部分重复 - abbc 返回3"),
+        ("dvdf", 3, "嵌套重复 - dvdf 返回3"),
+        ("abba", 2, "回文重复 - abba 返回2"),
     ]
     
     passed = 0
-    for i, (s, expected) in enumerate(test_cases):
-        result = lengthOfLongestSubstring(s)
+    for args, expected, desc in test_cases:
+        if isinstance(args, tuple):
+            result = length_of_longest_substring(*args)
+        else:
+            result = length_of_longest_substring(args)
         if result == expected:
-            print(f"Test {i+1} PASS")
+            print(f"PASS: {desc}")
             passed += 1
         else:
-            print(f"Test {i+1} FAIL: input={repr(s)}, expected={expected}, got={result}")
-            
-    print(f"\nTotal: {len(test_cases)} tests, {passed} passed, {len(test_cases) - passed} failed.")
+            print(f"FAIL: {desc} - Expected {expected}, got {result}")
+    
+    print(f"\n{passed}/{len(test_cases)} tests passed")
+
 
 if __name__ == "__main__":
     run_tests()

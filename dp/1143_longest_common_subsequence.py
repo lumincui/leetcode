@@ -29,9 +29,16 @@
 
 
 def longest_common_subsequence(text1: str, text2: str) -> int:
-    # TODO: 在这里实现你的解法
-    return 0
+    dp = [[0 for _ in text2] for _ in text1]
 
+    for i in range(len(text1)):
+        for j in range(len(text2)):
+            if text1[i] == text2[j]:
+                dp[i][j] = (dp[i-1][j-1] if i != 0 and j != 0 else 0) + 1
+            else:
+                dp[i][j] = max(dp[i-1][j] if i != 0 else 0, dp[i][j-1] if j != 0 else 0)
+
+    return dp[-1][-1]
 
 def run_tests() -> None:
     test_cases = [
@@ -42,7 +49,7 @@ def run_tests() -> None:
         # 边界和常见场景
         {"text1": "a", "text2": "a", "expected": 1},
         {"text1": "a", "text2": "b", "expected": 0},
-        {"text1": "bl", "text2": "ybyl", "expected": 1},
+        {"text1": "bl", "text2": "ybyl", "expected": 2},
         {"text1": "pmjghexybyrgzczy", "text2": "hafcdqbgncrcbihkd", "expected": 4},
     ]
 

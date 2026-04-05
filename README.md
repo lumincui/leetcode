@@ -47,6 +47,9 @@
 | 22 | Generate Parentheses | backtracking | ✅ 通过 | 2026-04-01 |
 | 198 | House Robber | dp | ✅ 通过 | 2026-04-01 |
 | 91 | Decode Ways | dp | ✅ 通过 | 2026-04-04 |
+| 3 | Longest Substring Without Repeating Characters | sliding_window | ✅ 通过 | 2026-04-05 |
+| 139 | Word Break | dp | ✅ 通过 | 2026-04-05 |
+| 11 | Container With Most Water | two_pointers | ✅ 通过 | 2026-04-05 |
 
 ---
 

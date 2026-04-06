@@ -50,6 +50,9 @@
 | 3 | Longest Substring Without Repeating Characters | sliding_window | ✅ 通过 | 2026-04-05 |
 | 139 | Word Break | dp | ✅ 通过 | 2026-04-05 |
 | 11 | Container With Most Water | two_pointers | ✅ 通过 | 2026-04-05 |
+| 75 | Sort Colors | two_pointers | ✅ 通过 | 2026-04-06 |
+| 328 | Odd Even Linked List | linked_list | ✅ 通过 | 2026-04-06 |
+| 503 | Next Greater Element II | monotonic_stack | ✅ 通过 | 2026-04-06 |
 
 ---
 

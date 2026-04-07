@@ -53,6 +53,9 @@
 | 75 | Sort Colors | two_pointers | ✅ 通过 | 2026-04-06 |
 | 328 | Odd Even Linked List | linked_list | ✅ 通过 | 2026-04-06 |
 | 503 | Next Greater Element II | monotonic_stack | ✅ 通过 | 2026-04-06 |
+| 62 | Unique Paths | dp | ✅ 通过 | 2026-04-07 |
+| 54 | Spiral Matrix | simulation | 🔄 需复习 | 2026-04-07 |
+| 496 | Next Greater Element I | monotonic_stack | 🔄 需复习 | 2026-04-07 |
 
 ---
 

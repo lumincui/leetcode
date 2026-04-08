@@ -56,6 +56,9 @@
 | 62 | Unique Paths | dp | ✅ 通过 | 2026-04-07 |
 | 54 | Spiral Matrix | simulation | 🔄 需复习 | 2026-04-07 |
 | 496 | Next Greater Element I | monotonic_stack | 🔄 需复习 | 2026-04-07 |
+| 567 | Permutation in String | sliding_window | ✅ 通过 | 2026-04-08 |
+| 213 | House Robber II | dp | ✅ 通过 | 2026-04-08 |
+| 152 | Maximum Product Subarray | dp | ✅ 通过 | 2026-04-08 |
 
 ---
 

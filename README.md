@@ -57,6 +57,9 @@
 | 54 | Spiral Matrix | simulation | 🔄 需复习 | 2026-04-07 |
 | 496 | Next Greater Element I | monotonic_stack | 🔄 需复习 | 2026-04-07 |
 | 567 | Permutation in String | sliding_window | ✅ 通过 | 2026-04-08 |
+| 73 | Set Matrix Zeroes | array | ✅ 通过 | 2026-04-09 |
+| 34 | Find First and Last Position | binary_search | 🔄 需复习 | 2026-04-09 |
+| 153 | Find Minimum in Rotated Sorted Array | binary_search | ✅ 通过 | 2026-04-09 |
 | 213 | House Robber II | dp | ✅ 通过 | 2026-04-08 |
 | 152 | Maximum Product Subarray | dp | ✅ 通过 | 2026-04-08 |
 
@@ -66,3 +69,4 @@
 - 复习双指针 (two_pointers)
 - 复习单调栈 (monotonic_stack)
 - 复习 KMP (string)
+- 复习二分查找 (binary_search) - 34题

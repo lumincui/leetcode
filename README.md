@@ -65,8 +65,11 @@
 
 ---
 
-## 明日计划
+## 今日计划
 - 复习双指针 (two_pointers)
 - 复习单调栈 (monotonic_stack)
 - 复习 KMP (string)
 - 复习二分查找 (binary_search) - 34题
+- 复习蓄水池抽样 (reservoir_sampling)
+- 复习分治 (divide_conquer)
+- 复习设计类 (design)

@@ -1,0 +1,120 @@
+wing: leetcode
+rooms:
+- name: prefix_sum
+  description: Files from prefix_sum/
+  keywords:
+  - prefix_sum
+  - prefix_sum
+- name: two_pointers
+  description: Files from two_pointers/
+  keywords:
+  - two_pointers
+  - two_pointers
+- name: tree
+  description: Files from tree/
+  keywords:
+  - tree
+  - tree
+- name: word_break
+  description: Files from word_break/
+  keywords:
+  - word_break
+  - word_break
+- name: unique_paths
+  description: Files from unique_paths/
+  keywords:
+  - unique_paths
+  - unique_paths
+- name: array
+  description: Files from array/
+  keywords:
+  - array
+  - array
+- name: monotonic_stack
+  description: Files from monotonic_stack/
+  keywords:
+  - monotonic_stack
+  - monotonic_stack
+- name: binary_search
+  description: Files from binary_search/
+  keywords:
+  - binary_search
+  - binary_search
+- name: backtracking
+  description: Files from backtracking/
+  keywords:
+  - backtracking
+  - backtracking
+- name: graph
+  description: Files from graph/
+  keywords:
+  - graph
+  - graph
+- name: simulation
+  description: Files from simulation/
+  keywords:
+  - simulation
+  - simulation
+- name: linked_list
+  description: Files from linked_list/
+  keywords:
+  - linked_list
+  - linked_list
+- name: math
+  description: Files from math/
+  keywords:
+  - math
+  - math
+- name: intervals
+  description: Files from intervals/
+  keywords:
+  - intervals
+  - intervals
+- name: hash_table
+  description: Files from hash_table/
+  keywords:
+  - hash_table
+  - hash_table
+- name: sliding_window
+  description: Files from sliding_window/
+  keywords:
+  - sliding_window
+  - sliding_window
+- name: trie
+  description: Files from trie/
+  keywords:
+  - trie
+  - trie
+- name: heap
+  description: Files from heap/
+  keywords:
+  - heap
+  - heap
+- name: fast_slow_pointers
+  description: Files from fast_slow_pointers/
+  keywords:
+  - fast_slow_pointers
+  - fast_slow_pointers
+- name: greedy
+  description: Files from greedy/
+  keywords:
+  - greedy
+  - greedy
+- name: union_find
+  description: Files from union_find/
+  keywords:
+  - union_find
+  - union_find
+- name: string
+  description: Files from string/
+  keywords:
+  - string
+  - string
+- name: stack
+  description: Files from stack/
+  keywords:
+  - stack
+  - stack
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []

@@ -62,6 +62,7 @@
 | 153 | Find Minimum in Rotated Sorted Array | binary_search | ✅ 通过 | 2026-04-09 |
 | 213 | House Robber II | dp | ✅ 通过 | 2026-04-08 |
 | 152 | Maximum Product Subarray | dp | ✅ 通过 | 2026-04-08 |
+| 1011 | Capacity to Ship Packages | binary_search | ✅ 通过 | 2026-04-24 |
 
 ---
 

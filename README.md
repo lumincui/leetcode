@@ -63,6 +63,9 @@
 | 213 | House Robber II | dp | ✅ 通过 | 2026-04-08 |
 | 152 | Maximum Product Subarray | dp | ✅ 通过 | 2026-04-08 |
 | 1011 | Capacity to Ship Packages | binary_search | ✅ 通过 | 2026-04-24 |
+| 347 | Top K Frequent Elements | heap | ✅ 通过 | 2026-04-25 |
+| 23 | Merge K Sorted Lists | heap | ✅ 通过 | 2026-04-25 |
+| 239 | Sliding Window Maximum | sliding_window | ✅ 通过 | 2026-04-25 |
 
 ---
 

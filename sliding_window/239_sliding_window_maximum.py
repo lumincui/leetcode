@@ -25,8 +25,26 @@ from typing import List
 
 
 def max_sliding_window(nums: List[int], k: int) -> List[int]:
-    # TODO: 使用单调队列（双端队列）实现 O(n) 解法
-    return []
+    stack = []
+
+    result = []
+    for i, num in enumerate(nums):
+        for j in range(len(stack)-1, -1, -1):
+            if stack[j] >= num:
+                break
+            stack.pop(j)
+
+        stack.append(num)
+        if i < k-1:
+            continue
+
+        result.append(stack[0])
+
+        if nums[i-k+1] == stack[0]:
+            stack.pop(0)
+
+    return result
+
 
 
 def run_tests() -> None:

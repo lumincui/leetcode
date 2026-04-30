@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "leetcode-teacher": {
+      "source": "lumincui/skills",
+      "sourceType": "github",
+      "skillPath": "leetcode-teacher/SKILL.md",
+      "computedHash": "f4b46c3cb14fb487f2407398d3d9225826464b1d898850a3a4f47cdcd10e544e"
+    }
+  }
+}

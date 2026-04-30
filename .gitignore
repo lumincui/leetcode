@@ -1,7 +1,7 @@
 .agents/
 .iflow/
 .claude/
-skills-lock.json
 __pycache__/
-skills/
 .idea/
+.ruff_cache/
+skills/

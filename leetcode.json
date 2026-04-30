@@ -452,6 +452,12 @@
       "date": "2026-04-30",
       "name": "Sort an Array",
       "category": "array"
+    },
+    "42": {
+      "status": "pass",
+      "date": "2026-04-30",
+      "name": "Trapping Rain Water",
+      "category": "twopointers"
     }
   }
 }
